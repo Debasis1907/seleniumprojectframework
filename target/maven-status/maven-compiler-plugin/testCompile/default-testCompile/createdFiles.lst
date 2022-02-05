@@ -1,0 +1,5 @@
+stepDefinitions\Login.class
+tests\TC002_ValidationTest.class
+testRunner\Runner.class
+tests\TC001_LoginTest.class
+tests\TC03_MenuLinksTest.class

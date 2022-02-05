@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Selenium/QAFox">
+        <classes>
+            <class name="tests.TC001_LoginTest">
+                <methods><include name="Login"/></methods>
+            </class>
+            <class name="tests.TC002_ValidationTest">
+                <methods><include name="verifyTitle"/>
+                    <include name="verifyURL"/>
+                </methods>
+            </class>
+            <class name="tests.TC03_MenuLinksTest">
+                <methods>
+                    <include name="getTotalMenuLinks"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
